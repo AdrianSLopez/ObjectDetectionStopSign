@@ -1,0 +1,2 @@
+https://github.com/JoakimSoderberg/haarcascade-negatives/tree/master/images
+Used images in the github link above.
