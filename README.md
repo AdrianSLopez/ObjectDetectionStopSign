@@ -1,5 +1,5 @@
 # ObjectDetectionStopSign
-A project using OpenCV for detecting Stop Signs on videos
+A project using OpenCV for detecting Stop Signs on videos.
 
 Result: 
 
