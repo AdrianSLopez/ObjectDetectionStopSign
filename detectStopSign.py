@@ -5,7 +5,7 @@ from time import sleep
 
 
 cascade = cv2.CascadeClassifier('cascade.xml')
-video = cv2.VideoCapture('stopSign.mp4')
+video = cv2.VideoCapture('stopSign.mp4')   #<- Video Path
 
 while True:
     if not video.isOpened():
