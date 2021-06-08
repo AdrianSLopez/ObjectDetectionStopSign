@@ -22,8 +22,11 @@ A project using OpenCV, Ubuntu, and python for detecting Stop Signs on videos.
   <p align="center"><img src="https://github.com/AdrianSLopez/ObjectDetectionStopSign/blob/main/ReadMeMedia/Training.png"></p>
   <p>- Run the following command:</p> 
   <p><i>opencv_createsamples -num (number of objects in your annotations file) -vec samples.vec(name of file that is going to be created) -info (annotations file/.txt file that saved the labeling) -bg (.txt file that has the negative images' filepath)</i></p> 
-  <P>Ex: <i>opencv_createsamples -num 145 -vec samples.vec -info a.txt -bg negativeImagesFilePath.txt</i></p>
-
+  <p>Ex: <i>opencv_createsamples -num 145 -vec samples.vec -info a.txt -bg negativeImagesFilePath.txt</i></p>
+  <p> What this command basically does is it puts your positive images on top of the negative images. It gives your object different backgrounds.</p>
+  <p>- Then Run the final command: </p>
+  <p><i>opencv_traincascade -featureType LBP -numPos (85% of positive files that was put in the .vec file; which is the number after -num in the opencv_creatsamples command) -data (filepath to store the file that will be createdd) -bg (.txt file that has the negative images' filepath) -acceptanceRatioBreakValue 0.00001 -vec (.vec file that was created from opencv_createsamples)</i></p>
+  <p>Ex: <i>opencv_traincascade</i> -featureType LBP -numPos 123 -data home/CV/Result/ -bg negativeImagesFilePath.txt - acceptanceRatioBreakValue 0.00001 -vec samples.vec</i></p>
   <h1>Result: </h1>
 
 <p align="center"><img src="https://github.com/AdrianSLopez/ObjectDetectionStopSign/blob/main/ReadMeMedia/ObjectDetectStopSign.gif"</p>
