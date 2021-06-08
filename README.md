@@ -19,8 +19,9 @@ A project using OpenCV, Ubuntu, and python for detecting Stop Signs on videos.
 
   <h2>3. Training</h2>
   <p align="center"><img src="https://github.com/AdrianSLopez/ObjectDetectionStopSign/blob/main/ReadMeMedia/Training.png"></p>
-  <p>- textt</p> 
-
+  <p>- Run the following command:</p> 
+  <p><i>opencv_createsamples -num (number of objects in your annotations file) -vec samples.vec(file that is going to be produced) -info (annotations file/.txt file that saved the labeling) -bg (.txt file that has the negative images' filepath)</i></p> 
+  <P>Ex: <i>opencv_createsamples -num 145 -vec samples.vec -info a.txt -bg negativeImagesFilePath.txt</i></p>
 
   <h1>Result: </h1>
 
