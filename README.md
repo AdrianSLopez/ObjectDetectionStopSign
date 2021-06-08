@@ -18,6 +18,7 @@ A project using OpenCV, Ubuntu, and python for detecting Stop Signs on videos.
   <p>- The process of labeling is just creating a box/square around the object you want to detect</p>
 
 <h2>3. Training</h2
+  <p align="center"><img src="https://github.com/AdrianSLopez/ObjectDetectionStopSign/blob/main/ReadMeMedia/Training.png"></p>
   <p>- textt</p> 
 
 
