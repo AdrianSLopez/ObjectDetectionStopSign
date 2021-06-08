@@ -28,6 +28,6 @@ A project using OpenCV, Ubuntu, and python for detecting Stop Signs on videos.
   <p><i>opencv_traincascade -featureType LBP -numPos (85% of positive files that was put in the .vec file; which is the number after -num in the opencv_creatsamples command) -data (filepath to store the file that will be createdd) -bg (.txt file that has the negative images' filepath) -acceptanceRatioBreakValue 0.00001 -vec (.vec file that was created from opencv_createsamples)</i></p>
   <p>Ex: <i>opencv_traincascade -featureType LBP -numPos 123 -data home/CV/Result/ -bg negativeImagesFilePath.txt - acceptanceRatioBreakValue 0.00001 -vec samples.vec</i></p>
   <h1>Result: </h1>
-  <p>- "cascade.xml" is created after using <i>opencv_trainscascade</i> command.</p>
+  <p>- "cascade.xml" is created after using <i>opencv_traincascade</i> command.</p>
   <p>- Used python <a href="https://github.com/AdrianSLopez/ObjectDetectionStopSign/blob/main/Result/detectStopSign.py">code</a> with OpenCV, to use the cascade file on a video, and potentially live through a webcam/camera, and detect Stop Signs.</p>
   <p align="center"><img src="https://github.com/AdrianSLopez/ObjectDetectionStopSign/blob/main/ReadMeMedia/ObjectDetectStopSign.gif"</p>
