@@ -4,9 +4,11 @@ A project using OpenCV, Ubuntu, and python for detecting Stop Signs on videos.
 #Process
 
 1. Data Collecting    
-  <img align="center" src="https://github.com/AdrianSLopez/ObjectDetectionStopSign/blob/main/ReadMeMedia/DataSet.jpg">
-   - Collected 150 positive images. *Positive images are images that contain the object you want to label/detect.
-   - Resized 150 images to 256x256 pixels.
+<p align="center">
+  <img src="https://github.com/AdrianSLopez/ObjectDetectionStopSign/blob/main/ReadMeMedia/Labeling.jpg">
+</p>
+   - Collected 150 positive images. *Positive images are images that contain the object you want to label/detect. \n
+   - Resized 150 images to 256x256 pixels.\n
    - Download Negative images from https://github.com/JoakimSoderberg/haarcascade-negatives/tree/master/images. *Negative images are images that should not contain your object
    
 
